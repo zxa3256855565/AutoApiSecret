@@ -49,25 +49,19 @@ AutoApi系列：~~AutoApi~~、AutoApiSecret、~~AutoApiSR、AutoApiS~~、AutoApi
 
    >:blush: :blush: :blush: :blush: :blush: :blush: 
    
-   >请注意！请注意！请注意！
-   
-   · **有错误/问题请看**:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test)
-   
-   · 原教程/博客好像也坏了，看[视频教程](https://www.bilibili.com/video/av95688306/)吧，懒得补充，ORZ. （或者去网上搜一下，有一堆文字转载，关键词：github action e5 续期）
-   
-   以下是视频教程里需要的东西：
-   
-   · 注册应用时用到的[azure管理页面](https://portal.azure.com/)，或者直接到[仪表板](https://aad.portal.azure.com/)，找到注册应用选项
-   
-   · 重定向URI 填写的内容 http://localhost:53682/
-
-   · 应用需要赋予的api权限
-   
-        Files.ReadWrite.All   Sites.ReadWrite.All 
-        User.ReadWrite.All    Directory.ReadWrite.All
-        Mail.ReadWrite        MailboxSettings.ReadWrite
+   * **注意事项**
+      * 有错误/问题请看**:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test)
+      * 原教程/博客好像也坏了，看[视频教程](https://www.bilibili.com/video/av95688306/)吧，懒得补充，ORZ. （或者去网上搜一下，有一堆文字转载，关键词：github action e5 续期）
+      * 以下是视频教程里需要的东西：
+         * 注册应用时用到的[azure管理页面](https://portal.azure.com/)，或者直接到[仪表板](https://aad.portal.azure.com/)，找到注册应用选项
+         * 重定向URI 填写的内容 http://localhost:53682/
+         * 应用需要赋予的api权限
+                      
+                     Files.ReadWrite.All   Sites.ReadWrite.All 
+                     User.ReadWrite.All    Directory.ReadWrite.All
+                     Mail.ReadWrite        MailboxSettings.ReadWrite
         
-   · rclone下载，[下载地址 rclone.org ](https://downloads.rclone.org/v1.53.3/rclone-v1.53.3-windows-amd64.zip)，(windows 64）
+          * rclone下载，[下载地址 rclone.org ](https://downloads.rclone.org/v1.53.3/rclone-v1.53.3-windows-amd64.zip)，(windows 64）
    
    >:anguished: :anguished: :anguished: :anguished: :anguished: :anguished:  
    
